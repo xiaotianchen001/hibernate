@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html ng-app>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+<script
+	src="http://ajax.googleapis.com/ajax/libs/angularjs/1.2.26/angular.min.js"></script>
+<script type="text/javascript">
+ 
+	var app = angular.module('myapp3', []);
+	
+	app.controller('MyController', function($scope){
+	    $scope.variable = "AngularJS Hello World!!!";
+	});
+</script>
+</head>
+<body ng-controller="myController">
+	<div>
+		<p>{{10+20}}</p>
+	</div>
+</body>
+</html>
